@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J3C2</title>
+        <script>
+            function song(audio){
+                document.getElementById('begin').pause();
+                document.getElementById(audio).play();
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <audio src="begin.mp3" id="begin"></audio>
+            <button onclick="javascript:song('begin')">Play Audio</button>
+        </center>
+    </body>
+</html>
